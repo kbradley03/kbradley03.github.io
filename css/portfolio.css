@@ -263,6 +263,19 @@ a:focus {
     -o-background-size: cover;
 }
 
+.media-section {
+    width: 100%;
+    height:auto;
+    padding: 0;
+    color: #fff;
+    background: url(../img/Mac-scene.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .about-section {
     width:100%;
     height: auto;
@@ -275,7 +288,7 @@ a:focus {
 
 #about{
     padding:50px 0 100px 0;
-     background: #7ec0ee;
+     background: #FF7F00;
 }
 
 @media(min-width:767px) {
@@ -284,6 +297,9 @@ a:focus {
     }
 
     .portfolio-section {
+        padding: 100px 0;
+    }
+    .media-section {
         padding: 100px 0;
     }
 
